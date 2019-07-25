@@ -1,0 +1,15 @@
+pyqt5
+pyqt5-tools
+twisted
+bson
+pyecharts
+pymongo
+matplotlib
+selenium
+redis
+flask
+pillow
+requests
+gensim
+scikit-learn
+

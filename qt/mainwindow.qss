@@ -1,0 +1,65 @@
+
+QTabWidget::pane{
+    border-style: none;
+    background-color: white;
+
+}
+#tabWidget::tab-bar,#tabEcharts::tab-bar{
+    alignment:center;
+}
+
+
+#tabWidget_bar::tab{
+    border-bottom-color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    min-height:30px;
+    font:26px Times New Roman;
+    padding: 12px;
+
+}
+#tabWidget_bar::tab:hover{
+	background:rgb(255, 255, 255, 100);
+}
+#tabWidget_bar::tab:selected{
+	border-color: white;
+	background:white;
+	color:green;
+
+}
+
+#tabEcharts_bar::tab {
+    border:none;
+    font-family: Microsoft YaHei;
+    background: white;
+    min-height:25px;
+    min-width:100px;
+    font-size: 18px;
+    padding: 12px;
+}
+#tabEcharts_bar::tab:hover{
+	font-size: 22px;
+	font-weight: 80px;
+}
+#tabEcharts_bar::tab:selected{
+    font-size: 24px;
+	font-weight: bold;
+	color:red;
+}
+
+#terminal{
+    font:12px
+}
+QTextBrowser{
+    font:20px
+}
+
+
+
+QScrollArea{
+    border-style: none;
+}
+
+QTableWidget{
+    background: white;
+}
